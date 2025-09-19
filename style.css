@@ -32,7 +32,7 @@ h1 {
 a {
     text-decoration: none;
     color: white;
-    margin: 40px;
+    margin: 60px;
     font-size: 26px;
 }
 
@@ -46,14 +46,38 @@ a:hover {
     width: 170px;
     background-color: #C64242;
     border-radius: 15px;
-    margin-left: 1050px;
-    margin-top: 20px;
+    margin-left: 1180px;
+    margin-top: 60px;
     display: flex;
     align-items: top;
     justify-content: center;
+    position: absolute;
+}
+
+.Botten-text{
+    background-color: #C64242;
+    border-radius: 12px;
+    height: 30px;
+    width: 700px;
+    margin-top: 525px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
 
 p {
     font-size: 19px;
     padding: 1%;
+}
+
+
+img {
+    height: 260px;
+    width: 260px;
+    margin-top: 40px;
+    margin-left: 600px;
+    position: relative;
+    border-radius: 50%;
 }
