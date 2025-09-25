@@ -72,12 +72,29 @@ p {
     padding: 1%;
 }
 
-
-img {
+.Aruna img {
     height: 260px;
     width: 260px;
     margin-top: 40px;
-    margin-left: 600px;
+    margin-left: 550px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.Zhendong img {
+    height: 370px;
+    width: 370px;
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.Bingbong img {
+    height: 220px;
+    width: 220px;
+    margin-top: 280px;
+    margin-left: 440px;
     position: relative;
     border-radius: 50%;
 }
