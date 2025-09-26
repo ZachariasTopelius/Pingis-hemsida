@@ -29,7 +29,7 @@ h1 {
     font-size: 35px;
 }
 
-a {
+.länkar {
     text-decoration: none;
     color: white;
     margin: 60px;
@@ -38,6 +38,40 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.top-spelare {
+    text-decoration: none;
+    color: white;
+    margin: 60px;
+    font-size: 26px;
+}
+
+.spelare-lista {
+    background-color: #C64242;
+    height: 300px;
+    width: 165px;
+    font-size: 18px;
+    display: none;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 12px;
+}
+
+.top-spelare:hover .spelare-lista{
+    display: block;
+}
+
+.spelare {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding-left: 2%;
 }
 
 .Hem-text {
